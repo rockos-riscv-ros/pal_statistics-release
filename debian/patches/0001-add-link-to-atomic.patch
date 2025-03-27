@@ -1,0 +1,24 @@
+From 1cfd5fe796c6c76ee3f9c18386f03f5035cd0db0 Mon Sep 17 00:00:00 2001
+From: Zheng Junjie <z572@z572.online>
+Date: Thu, 27 Mar 2025 11:37:47 +0800
+Subject: [PATCH] add link to atomic.
+
+---
+ CMakeLists.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index cf4a755..4ca5ade 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -8,6 +8,7 @@ ament_auto_add_library(${PROJECT_NAME} SHARED
+         src/pal_statistics_utils.cpp src/pal_statistics.cpp
+         src/pal_statistics_macros.cpp src/registration_list.cpp)
+ 
++target_link_libraries(${PROJECT_NAME} atomic)
+ # ##############################################################################
+ # Testing ##
+ # ##############################################################################
+-- 
+2.49.0
+
