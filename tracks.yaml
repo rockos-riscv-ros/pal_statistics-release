@@ -1,3 +1,4 @@
+release_repo_url: git@github.com:rockos-riscv-ros/pal_statistics-release
 tracks:
   foxy:
     actions:
