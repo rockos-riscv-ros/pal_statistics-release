@@ -1,3 +1,32 @@
+## pal_statistics (jazzy) - 2.6.2-2
+
+The packages in the `pal_statistics` repository were released into the `jazzy` distro by running `/home/z572/gits/rockos-ros/venv/bin/bloom-release -r jazzy pal_statistics --override-release-repository-push-url git@github.com:rockos-riscv-ros/pal_statistics-release` on `Thu, 27 Mar 2025 03:46:04 -0000`
+
+These packages were released:
+- `pal_statistics`
+- `pal_statistics_msgs`
+
+These packages were explicitly ignored:
+- `pal_carbon_collector`
+- `pal_statsd_collector`
+
+Version of package(s) in repository `pal_statistics`:
+
+- upstream repository: https://github.com/pal-robotics/pal_statistics.git
+- release repository: https://github.com/rockos-riscv-ros/pal_statistics-release.git
+- rosdistro version: `2.6.2-1`
+- old version: `2.6.2-1`
+- new version: `2.6.2-2`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## pal_statistics (rolling) - 2.6.2-1
 
 The packages in the `pal_statistics` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling pal_statistics -y` on `Wed, 05 Feb 2025 16:53:08 -0000`
